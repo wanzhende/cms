@@ -69,16 +69,6 @@ class Staff extends Controller
                 }
                 
                 dump($m_result);
-                /*
-                $staffProfile = StaffProfile::get(['sid'=>$id]);
-                is_null($staffProfile) && $staffProfile = new StaffProfile();
-                
-                if($staffProfile->allowField(true)->save($post) !== false) {
-                    echo '档案更新成功！';
-                } else {
-                    echo '档案更新失败！';
-                }
-                */
             } else {
                  echo '基础资料更新失败！<br>'.$staff->getError();
             }
