@@ -1,0 +1,400 @@
+[ 2017-04-01T09:14:47+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=FD6BA6A11202142C3D6F1E3EB33E9540BA2D55BDDD887D672E7A68DD880E499F
+[ log ] tj.b.qq.com/cgi/reccom?id=FD6BA6A11202142C3D6F1E3EB33E9540BA2D55BDDD887D672E7A68DD880E499F [运行时间：0.245400s][吞吐率：4.07req/s] [内存消耗：273.76kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'FD6BA6A11202142C3D6F1E3EB33E9540BA2D55BDDD887D672E7A68DD880E499F',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T09:14:54+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005326s][吞吐率：187.76req/s] [内存消耗：140.61kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T09:18:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/
+[ log ] localhost/admin/ [运行时间：0.261294s][吞吐率：3.83req/s] [内存消耗：234.85kb] [文件加载：44]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /home/lion/Web/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T09:18:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/depart/index
+[ log ] localhost/admin/depart/index [运行时间：0.022393s][吞吐率：44.66req/s] [内存消耗：233.19kb] [文件加载：43]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'depart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Depart->index[ /home/lion/Web/application/admin/controller/Depart.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/depart/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T09:18:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/depart/getDepart
+[ log ] localhost/admin/depart/getDepart [运行时间：0.107222s][吞吐率：9.33req/s] [内存消耗：479.20kb] [文件加载：54]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'depart',
+    2 => 'getDepart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/depart/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Depart->getDepart[ /home/lion/Web/application/admin/controller/Depart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031839s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.022288s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`pid`,`level` FROM `al_depart` [ RunTime:0.000715s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T09:18:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/staff/index
+[ log ] localhost/admin/staff/index [运行时间：0.032074s][吞吐率：31.18req/s] [内存消耗：233.19kb] [文件加载：43]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Staff->index[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T09:18:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/depart/getDepart
+[ log ] localhost/admin/depart/getDepart [运行时间：0.004606s][吞吐率：217.11req/s] [内存消耗：412.91kb] [文件加载：54]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'depart',
+    2 => 'getDepart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Depart->getDepart[ /home/lion/Web/application/admin/controller/Depart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000573s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`pid`,`level` FROM `al_depart` [ RunTime:0.000353s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T09:18:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/staff/staffInfoSync/did/1
+[ log ] localhost/admin/staff/staffInfoSync/did/1 [运行时间：0.057045s][吞吐率：17.53req/s] [内存消耗：431.60kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'did' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000563s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.020439s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_depart_staff` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '1' [ RunTime:0.019848s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T09:18:10+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/staff/staffInfoSync/did/2
+[ log ] localhost/admin/staff/staffInfoSync/did/2 [运行时间：0.009425s][吞吐率：106.10req/s] [内存消耗：431.84kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'did' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001435s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_depart_staff` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '2' [ RunTime:0.000821s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T09:18:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/staff/staffedit/id/1
+[ log ] localhost/admin/staff/staffedit/id/1 [运行时间：0.178036s][吞吐率：5.62req/s] [内存消耗：414.63kb] [文件加载：52]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000612s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000422s ]
+
+---------------------------------------------------------------
+[ 2017-04-01T16:14:33+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=406728C8326AF69529234DDA0C8DBDE788B47C4C0FFDDFDC0904B9346275DF66
+[ log ] tj.b.qq.com/cgi/reccom?id=406728C8326AF69529234DDA0C8DBDE788B47C4C0FFDDFDC0904B9346275DF66 [运行时间：0.363733s][吞吐率：2.75req/s] [内存消耗：273.74kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '406728C8326AF69529234DDA0C8DBDE788B47C4C0FFDDFDC0904B9346275DF66',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T16:14:41+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005218s][吞吐率：191.64req/s] [内存消耗：140.61kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T16:56:48+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=4387A0E3C1C5C2208C5D50FF1A178C7097F0C6775A8DA5A4E3A09DE0AEF90B18
+[ log ] tj.b.qq.com/cgi/reccom?id=4387A0E3C1C5C2208C5D50FF1A178C7097F0C6775A8DA5A4E3A09DE0AEF90B18 [运行时间：0.221358s][吞吐率：4.52req/s] [内存消耗：273.74kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4387A0E3C1C5C2208C5D50FF1A178C7097F0C6775A8DA5A4E3A09DE0AEF90B18',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-01T16:56:56+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005524s][吞吐率：181.03req/s] [内存消耗：140.61kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

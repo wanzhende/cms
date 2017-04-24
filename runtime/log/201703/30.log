@@ -1,0 +1,286 @@
+[ 2017-03-30T09:12:33+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=A8640D11F3B9276168D295B3D8B24431647F34178FB88D944645CC1DB27FFAD9
+[ log ] tj.b.qq.com/cgi/reccom?id=A8640D11F3B9276168D295B3D8B24431647F34178FB88D944645CC1DB27FFAD9 [运行时间：0.295558s][吞吐率：3.38req/s] [内存消耗：273.73kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'A8640D11F3B9276168D295B3D8B24431647F34178FB88D944645CC1DB27FFAD9',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T09:12:40+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005883s][吞吐率：169.98req/s] [内存消耗：140.61kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T11:17:43+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=98DF7FBD55615B7B1911D36060561BEDF69EB732C233C0AAF83AD95169CD029E
+[ log ] tj.b.qq.com/cgi/reccom?id=98DF7FBD55615B7B1911D36060561BEDF69EB732C233C0AAF83AD95169CD029E [运行时间：0.220438s][吞吐率：4.54req/s] [内存消耗：273.74kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '98DF7FBD55615B7B1911D36060561BEDF69EB732C233C0AAF83AD95169CD029E',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T11:17:54+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.006462s][吞吐率：154.75req/s] [内存消耗：140.61kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T13:47:06+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.005838s][吞吐率：171.29req/s] [内存消耗：140.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T13:47:14+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.005188s][吞吐率：192.75req/s] [内存消耗：140.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T14:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.006178s][吞吐率：161.86req/s] [内存消耗：140.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T14:00:53+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.005549s][吞吐率：180.21req/s] [内存消耗：140.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T14:01:27+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.001776s][吞吐率：563.07req/s] [内存消耗：140.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T14:35:25+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.001789s][吞吐率：558.94req/s] [内存消耗：140.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T14:35:33+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.001504s][吞吐率：664.92req/s] [内存消耗：140.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-30T16:07:59+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.001580s][吞吐率：632.91req/s] [内存消耗：140.68kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

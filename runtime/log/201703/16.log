@@ -1,0 +1,567 @@
+[ 2017-03-16T10:07:34+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.325789s][吞吐率：3.07req/s] [内存消耗：276.67kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T10:07:38+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=D4D98430A23B9881CD0B2147EC576BE4127A609006FE230D6F2A973181575E12
+[ log ] tj.b.qq.com/cgi/reccom?id=D4D98430A23B9881CD0B2147EC576BE4127A609006FE230D6F2A973181575E12 [运行时间：0.006159s][吞吐率：162.36req/s] [内存消耗：208.70kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'D4D98430A23B9881CD0B2147EC576BE4127A609006FE230D6F2A973181575E12',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T10:07:42+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.006387s][吞吐率：156.57req/s] [内存消耗：207.89kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T10:08:02+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.006007s][吞吐率：166.47req/s] [内存消耗：207.96kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T14:37:09+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=2AC38AF96B804EB8C48187CDA6FF01FDEBA639DF5CA9EC1B120593B3D83B113B
+[ log ] tj.b.qq.com/cgi/reccom?id=2AC38AF96B804EB8C48187CDA6FF01FDEBA639DF5CA9EC1B120593B3D83B113B [运行时间：0.212080s][吞吐率：4.72req/s] [内存消耗：277.41kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2AC38AF96B804EB8C48187CDA6FF01FDEBA639DF5CA9EC1B120593B3D83B113B',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T14:37:17+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005501s][吞吐率：181.78req/s] [内存消耗：207.89kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T16:53:14+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=4A31CB9BC2A91B9B1D4ECD42CF3BA45F081236CA13C05A1BB8A7EBD673471EAA
+[ log ] tj.b.qq.com/cgi/reccom?id=4A31CB9BC2A91B9B1D4ECD42CF3BA45F081236CA13C05A1BB8A7EBD673471EAA [运行时间：0.195586s][吞吐率：5.11req/s] [内存消耗：277.41kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4A31CB9BC2A91B9B1D4ECD42CF3BA45F081236CA13C05A1BB8A7EBD673471EAA',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T16:53:22+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005880s][吞吐率：170.06req/s] [内存消耗：207.89kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:16:06+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=4A98B41AD7DB9F20BC96617689CF45B107489BB61C4E3280765613A83FC20763
+[ log ] tj.b.qq.com/cgi/reccom?id=4A98B41AD7DB9F20BC96617689CF45B107489BB61C4E3280765613A83FC20763 [运行时间：0.005302s][吞吐率：188.60req/s] [内存消耗：208.70kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4A98B41AD7DB9F20BC96617689CF45B107489BB61C4E3280765613A83FC20763',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:16:16+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005427s][吞吐率：184.27req/s] [内存消耗：207.89kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:20:37+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=3221C8A6E90E0FD367F765D6A7370F202EC03C91D2F3AB16B4BED97FED8478B8
+[ log ] tj.b.qq.com/cgi/reccom?id=3221C8A6E90E0FD367F765D6A7370F202EC03C91D2F3AB16B4BED97FED8478B8 [运行时间：0.005607s][吞吐率：178.34req/s] [内存消耗：208.70kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3221C8A6E90E0FD367F765D6A7370F202EC03C91D2F3AB16B4BED97FED8478B8',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:20:47+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.002888s][吞吐率：346.26req/s] [内存消耗：207.89kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:23:20+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.002266s][吞吐率：441.27req/s] [内存消耗：207.96kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:23:28+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.003642s][吞吐率：274.59req/s] [内存消耗：207.96kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:37:35+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.261716s][吞吐率：3.82req/s] [内存消耗：276.68kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=DB717C463E4174D0AC3EA19E0CE9E383804FBC044DF4B99BDCB70AA3976533BF
+[ log ] tj.b.qq.com/cgi/reccom?id=DB717C463E4174D0AC3EA19E0CE9E383804FBC044DF4B99BDCB70AA3976533BF [运行时间：0.006777s][吞吐率：147.56req/s] [内存消耗：208.70kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'DB717C463E4174D0AC3EA19E0CE9E383804FBC044DF4B99BDCB70AA3976533BF',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:37:43+08:00 ] 127.0.0.1 127.0.0.1 GET /wpad.dat
+[ log ] wpad/wpad.dat [运行时间：0.006181s][吞吐率：161.79req/s] [内存消耗：207.96kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wpad',
+  'connection' => 'keep-alive',
+  'user-agent' => '',
+  'accept-encoding' => 'gzip,deflate',
+  'accept-language' => 'en-us,en',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:37:46+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.006776s][吞吐率：147.58req/s] [内存消耗：207.89kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:47:46+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=CEDA5B98321F1BCFFA38C0E4CA144F637EAE1ADD03A7BD4828772CEC61A52277
+[ log ] tj.b.qq.com/cgi/reccom?id=CEDA5B98321F1BCFFA38C0E4CA144F637EAE1ADD03A7BD4828772CEC61A52277 [运行时间：0.005115s][吞吐率：195.50req/s] [内存消耗：208.70kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'CEDA5B98321F1BCFFA38C0E4CA144F637EAE1ADD03A7BD4828772CEC61A52277',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:47:56+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005219s][吞吐率：191.61req/s] [内存消耗：207.89kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:52:02+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=B11351D0AA89D7906B40F56DBA090BD6A3DD9CDA41A17DD1A5BE235354BCE0FB
+[ log ] tj.b.qq.com/cgi/reccom?id=B11351D0AA89D7906B40F56DBA090BD6A3DD9CDA41A17DD1A5BE235354BCE0FB [运行时间：0.002713s][吞吐率：368.57req/s] [内存消耗：208.70kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'B11351D0AA89D7906B40F56DBA090BD6A3DD9CDA41A17DD1A5BE235354BCE0FB',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:52:02+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.002654s][吞吐率：376.78req/s] [内存消耗：207.89kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:59:35+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=554F449D477512CBD2FCEEDC8578C4D9688DDA9F753BD23C854B449A2B940B0A
+[ log ] tj.b.qq.com/cgi/reccom?id=554F449D477512CBD2FCEEDC8578C4D9688DDA9F753BD23C854B449A2B940B0A [运行时间：0.254016s][吞吐率：3.94req/s] [内存消耗：277.41kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '554F449D477512CBD2FCEEDC8578C4D9688DDA9F753BD23C854B449A2B940B0A',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-16T17:59:42+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005761s][吞吐率：173.58req/s] [内存消耗：207.89kb] [文件加载：40]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

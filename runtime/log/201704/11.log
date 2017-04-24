@@ -1,0 +1,2408 @@
+[ 2017-04-11T22:01:32+08:00 ] ::1 ::1 GET /index/common/login
+[ log ] localhost/index/common/login [运行时间：0.327206s][吞吐率：3.06req/s] [内存消耗：243.73kb] [文件加载：47]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'common',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Common->login[ /home/lion/Web/application/index/controller/Common.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lion/Web/html/../application/index/view/common/login.html [ array (
+  0 => 'ddjs',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T22:08:47+08:00 ] ::1 ::1 GET /admin/
+[ log ] localhost/admin/ [运行时间：0.007196s][吞吐率：138.97req/s] [内存消耗：234.04kb] [文件加载：44]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /home/lion/Web/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T22:08:50+08:00 ] ::1 ::1 GET /admin/staff/index
+[ log ] localhost/admin/staff/index [运行时间：0.003319s][吞吐率：301.31req/s] [内存消耗：233.72kb] [文件加载：43]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Staff->index[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T22:08:50+08:00 ] ::1 ::1 GET /admin/depart/getDepart
+[ log ] localhost/admin/depart/getDepart [运行时间：0.050941s][吞吐率：19.63req/s] [内存消耗：479.81kb] [文件加载：54]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'depart',
+    2 => 'getDepart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Depart->getDepart[ /home/lion/Web/application/admin/controller/Depart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021564s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001734s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`pid`,`level` FROM `al_depart` [ RunTime:0.000371s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:08:52+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/3
+[ log ] localhost/admin/staff/staffInfoSync/did/3 [运行时间：0.006530s][吞吐率：153.14req/s] [内存消耗：433.17kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '3' [ RunTime:0.000368s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:08:53+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/5
+[ log ] localhost/admin/staff/staffInfoSync/did/5 [运行时间：0.007914s][吞吐率：126.36req/s] [内存消耗：431.77kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001733s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '5' [ RunTime:0.000793s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:08:53+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/7
+[ log ] localhost/admin/staff/staffInfoSync/did/7 [运行时间：0.009450s][吞吐率：105.82req/s] [内存消耗：431.45kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.003119s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001278s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '7' [ RunTime:0.000444s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:08:54+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/6
+[ log ] localhost/admin/staff/staffInfoSync/did/6 [运行时间：0.008346s][吞吐率：119.82req/s] [内存消耗：431.77kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001141s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '6' [ RunTime:0.000873s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:08:55+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/3
+[ log ] localhost/admin/staff/staffedit/id/3 [运行时间：0.017430s][吞吐率：57.37req/s] [内存消耗：462.92kb] [文件加载：62]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 3 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000411s ]
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'alcms.al_staff_profile' doesn't exist[/home/lion/Web/thinkphp/library/think/db/connector/Mysql.php:65]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:09:06+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/9
+[ log ] localhost/admin/staff/staffInfoSync/did/9 [运行时间：0.007777s][吞吐率：128.58req/s] [内存消耗：432.16kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '9' [ RunTime:0.000434s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:09:07+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/7
+[ log ] localhost/admin/staff/staffInfoSync/did/7 [运行时间：0.007179s][吞吐率：139.29req/s] [内存消耗：431.45kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '7' [ RunTime:0.000512s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:09:08+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/10
+[ log ] localhost/admin/staff/staffInfoSync/did/10 [运行时间：0.009232s][吞吐率：108.32req/s] [内存消耗：432.17kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '10',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000773s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.003202s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '10' [ RunTime:0.000426s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:21:46+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.011296s][吞吐率：88.53req/s] [内存消耗：471.21kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001342s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001697s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 5 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000318s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:23:42+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/7
+[ log ] localhost/admin/staff/staffInfoSync/did/7 [运行时间：0.010494s][吞吐率：95.29req/s] [内存消耗：431.45kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000481s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '7' [ RunTime:0.000417s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:23:43+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/6
+[ log ] localhost/admin/staff/staffInfoSync/did/6 [运行时间：0.006181s][吞吐率：161.79req/s] [内存消耗：431.77kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '6' [ RunTime:0.000380s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:23:44+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/3
+[ log ] localhost/admin/staff/staffedit/id/3 [运行时间：0.011196s][吞吐率：89.32req/s] [内存消耗：474.67kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000709s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 3 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 3 LIMIT 1 [ RunTime:0.000277s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:23:50+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/7
+[ log ] localhost/admin/staff/staffInfoSync/did/7 [运行时间：0.006889s][吞吐率：145.16req/s] [内存消耗：431.45kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '7' [ RunTime:0.000340s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:23:52+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/10
+[ log ] localhost/admin/staff/staffInfoSync/did/10 [运行时间：0.007932s][吞吐率：126.07req/s] [内存消耗：432.17kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '10',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '10' [ RunTime:0.000669s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:23:53+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.015410s][吞吐率：64.89req/s] [内存消耗：471.21kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000892s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001664s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001809s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 5 [ RunTime:0.001410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.001343s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000772s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:24:07+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/11
+[ log ] localhost/admin/staff/staffInfoSync/did/11 [运行时间：0.008101s][吞吐率：123.44req/s] [内存消耗：432.18kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '11',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000559s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001052s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '11' [ RunTime:0.000558s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:24:11+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/6
+[ log ] localhost/admin/staff/staffedit/id/6 [运行时间：0.012086s][吞吐率：82.74req/s] [内存消耗：471.22kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 6 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 6 LIMIT 1 [ RunTime:0.000412s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:24:17+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/7
+[ log ] localhost/admin/staff/staffInfoSync/did/7 [运行时间：0.008038s][吞吐率：124.41req/s] [内存消耗：431.45kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '7' [ RunTime:0.000433s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:24:18+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/10
+[ log ] localhost/admin/staff/staffInfoSync/did/10 [运行时间：0.008589s][吞吐率：116.43req/s] [内存消耗：432.17kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '10',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000953s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001395s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.001213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '10' [ RunTime:0.000524s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:24:22+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/9
+[ log ] localhost/admin/staff/staffInfoSync/did/9 [运行时间：0.009114s][吞吐率：109.72req/s] [内存消耗：432.16kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000702s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '9' [ RunTime:0.000674s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:24:24+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/11
+[ log ] localhost/admin/staff/staffInfoSync/did/11 [运行时间：0.006808s][吞吐率：146.89req/s] [内存消耗：432.18kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '11',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000893s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '11' [ RunTime:0.000377s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:24:25+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/12
+[ log ] localhost/admin/staff/staffInfoSync/did/12 [运行时间：0.010825s][吞吐率：92.38req/s] [内存消耗：432.17kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'did' => '12',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003317s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001594s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '12' [ RunTime:0.000574s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T22:24:38+08:00 ] ::1 ::1 GET /admin/staff/staffadd
+[ log ] localhost/admin/staff/staffadd [运行时间：0.002992s][吞吐率：334.23req/s] [内存消耗：233.00kb] [文件加载：43]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffadd',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffadd[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffadd.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T22:24:41+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/9
+[ log ] localhost/admin/staff/staffedit/id/9 [运行时间：0.012445s][吞吐率：80.35req/s] [内存消耗：471.21kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=nbep99rfrus2e56208ejdh3c20',
+)
+[ info ] [ PARAM ] array (
+  'id' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000894s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001715s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 9 [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 9 LIMIT 1 [ RunTime:0.000443s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:10:07+08:00 ] 127.0.0.1 127.0.0.1 GET /cgi/reccom?id=C09ED13A85A27FBAA4450F1E1A7326FFB6E146FE484F0D1F62A64C8191C40C00
+[ log ] tj.b.qq.com/cgi/reccom?id=C09ED13A85A27FBAA4450F1E1A7326FFB6E146FE484F0D1F62A64C8191C40C00 [运行时间：0.157855s][吞吐率：6.33req/s] [内存消耗：273.74kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'cgi',
+    1 => 'reccom',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'C09ED13A85A27FBAA4450F1E1A7326FFB6E146FE484F0D1F62A64C8191C40C00',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:10:17+08:00 ] 127.0.0.1 127.0.0.1 GET /search.xml
+[ log ] tj.b.qq.com/search.xml [运行时间：0.005033s][吞吐率：198.69req/s] [内存消耗：140.61kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'search',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+  'host' => 'tj.b.qq.com',
+  'pragma' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:17:58+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.266575s][吞吐率：3.75req/s] [内存消耗：240.68kb] [文件加载：46]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:17:58+08:00 ] ::1 ::1 GET /index/common/login
+[ log ] localhost/index/common/login [运行时间：0.030642s][吞吐率：32.63req/s] [内存消耗：243.83kb] [文件加载：47]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'common',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Common->login[ /home/lion/Web/application/index/controller/Common.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lion/Web/html/../application/index/view/common/login.html [ array (
+  0 => 'ddjs',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:18:02+08:00 ] ::1 ::1 GET /admin/
+[ log ] localhost/admin/ [运行时间：0.261890s][吞吐率：3.82req/s] [内存消耗：234.04kb] [文件加载：44]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /home/lion/Web/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:18:04+08:00 ] ::1 ::1 GET /admin/depart/index
+[ log ] localhost/admin/depart/index [运行时间：0.002809s][吞吐率：355.99req/s] [内存消耗：233.72kb] [文件加载：43]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'depart',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Depart->index[ /home/lion/Web/application/admin/controller/Depart.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/depart/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:18:04+08:00 ] ::1 ::1 GET /static/public/css/tree.css
+[ log ] localhost/static/public/css/tree.css [运行时间：0.002163s][吞吐率：462.28req/s] [内存消耗：141.54kb] [文件加载：35]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'public',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/admin/depart/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:18:04+08:00 ] ::1 ::1 GET /admin/depart/getDepart
+[ log ] localhost/admin/depart/getDepart [运行时间：0.092705s][吞吐率：10.79req/s] [内存消耗：479.73kb] [文件加载：54]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'depart',
+    2 => 'getDepart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/depart/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Depart->getDepart[ /home/lion/Web/application/admin/controller/Depart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033542s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.025548s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`pid`,`level` FROM `al_depart` [ RunTime:0.000759s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:18:06+08:00 ] ::1 ::1 GET /admin/staff/index
+[ log ] localhost/admin/staff/index [运行时间：0.003848s][吞吐率：259.87req/s] [内存消耗：233.72kb] [文件加载：43]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Staff->index[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:18:06+08:00 ] ::1 ::1 GET /admin/depart/getDepart
+[ log ] localhost/admin/depart/getDepart [运行时间：0.004218s][吞吐率：237.07req/s] [内存消耗：413.44kb] [文件加载：54]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'depart',
+    2 => 'getDepart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Depart->getDepart[ /home/lion/Web/application/admin/controller/Depart.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000973s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000831s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`pid`,`level` FROM `al_depart` [ RunTime:0.000257s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:18:10+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/7
+[ log ] localhost/admin/staff/staffInfoSync/did/7 [运行时间：0.032052s][吞吐率：31.20req/s] [内存消耗：432.53kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'did' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000565s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.021808s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '7' [ RunTime:0.002991s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:18:12+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/9
+[ log ] localhost/admin/staff/staffInfoSync/did/9 [运行时间：0.006846s][吞吐率：146.07req/s] [内存消耗：432.16kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'did' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '9' [ RunTime:0.000588s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:18:13+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/3
+[ log ] localhost/admin/staff/staffedit/id/3 [运行时间：0.063425s][吞吐率：15.77req/s] [内存消耗：581.35kb] [文件加载：62]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001126s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001417s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 3 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.027625s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 3 LIMIT 1 [ RunTime:0.000547s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:19:23+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/3
+[ log ] localhost/admin/staff/staffedit/id/3 [运行时间：0.020402s][吞吐率：49.01req/s] [内存消耗：475.77kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000732s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001069s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 3 [ RunTime:0.004536s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 3 LIMIT 1 [ RunTime:0.000430s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:20:27+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/3
+[ log ] localhost/admin/staff/staffedit/id/3 [运行时间：0.017815s][吞吐率：56.13req/s] [内存消耗：516.23kb] [文件加载：62]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000501s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 3 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.004009s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 3 LIMIT 1 [ RunTime:0.000270s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:21:11+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/3
+[ log ] localhost/admin/staff/staffedit/id/3 [运行时间：0.019117s][吞吐率：52.31req/s] [内存消耗：516.31kb] [文件加载：62]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002099s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001101s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001098s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 3 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 3 LIMIT 1 [ RunTime:0.000239s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:23:03+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/3
+[ log ] localhost/admin/staff/staffedit/id/3 [运行时间：0.016379s][吞吐率：61.05req/s] [内存消耗：475.97kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 3 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 3 LIMIT 1 [ RunTime:0.000230s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:23:51+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/9
+[ log ] localhost/admin/staff/staffInfoSync/did/9 [运行时间：0.006981s][吞吐率：143.24req/s] [内存消耗：432.29kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'did' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000597s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '9' [ RunTime:0.000682s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:23:52+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/7
+[ log ] localhost/admin/staff/staffInfoSync/did/7 [运行时间：0.008454s][吞吐率：118.29req/s] [内存消耗：431.58kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'did' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001128s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001240s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '7' [ RunTime:0.001119s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:23:53+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/9
+[ log ] localhost/admin/staff/staffInfoSync/did/9 [运行时间：0.009160s][吞吐率：109.17req/s] [内存消耗：432.29kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'did' => '9',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001841s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.001520s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001430s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '9' [ RunTime:0.000514s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:23:54+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/3
+[ log ] localhost/admin/staff/staffedit/id/3 [运行时间：0.012886s][吞吐率：77.60req/s] [内存消耗：474.80kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001508s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 3 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 3 LIMIT 1 [ RunTime:0.000365s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:28:16+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/3
+[ log ] localhost/admin/staff/staffedit/id/3 [运行时间：0.012634s][吞吐率：79.15req/s] [内存消耗：476.08kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 3 [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 3 LIMIT 1 [ RunTime:0.001129s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:28:26+08:00 ] ::1 ::1 GET /admin/staff/staffInfoSync/did/10
+[ log ] localhost/admin/staff/staffInfoSync/did/10 [运行时间：0.007956s][吞吐率：125.69req/s] [内存消耗：432.30kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffInfoSync',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'referer' => 'http://localhost/admin/staff/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'did' => '10',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffInfoSync[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000748s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001575s ]
+[ sql ] [ SQL ] SELECT `A`.`id`,`A`.`name`,`A`.`alias`,`A`.`sex`,`A`.`telphone`,`A`.`level`,`A`.`hiredate`,`A`.`leavedate`,`A`.`status` FROM `al_staff` `A` INNER JOIN `al_staff_depart` `B` ON `A`.`id`=`B`.`sid` WHERE  `B`.`did` = '10' [ RunTime:0.000951s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:28:27+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.017189s][吞吐率：58.18req/s] [内存消耗：471.46kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001188s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001472s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 5 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.001657s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000604s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:28:49+08:00 ] ::1 ::1 POST /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.036988s][吞吐率：27.04req/s] [内存消耗：389.79kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '166',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/staff/staffedit/id/5',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'name' => '刘琳',
+  'alias' => '',
+  'sex' => '0',
+  'telphone' => '15639281165',
+  'hiredate' => '',
+  'photo' => '',
+  'stature' => '',
+  'weight' => '',
+  'vision' => '0',
+  'volk' => '1',
+  'wedlock' => '0',
+  'degree' => '0',
+  'birthday' => '1990-07-12',
+  'identity_card' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002034s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001767s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] UPDATE `al_staff`  SET `hiredate`=0  WHERE  `id` = 5 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.001414s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value[/home/lion/Web/thinkphp/library/think/db/Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:28:56+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.014415s][吞吐率：69.37req/s] [内存消耗：471.46kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.003613s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 5 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000531s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:29:06+08:00 ] ::1 ::1 POST /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.008628s][吞吐率：115.90req/s] [内存消耗：388.55kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '176',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/staff/staffedit/id/5',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'name' => '刘琳',
+  'alias' => '',
+  'sex' => '0',
+  'telphone' => '15639281165',
+  'hiredate' => '1970-01-01',
+  'photo' => '',
+  'stature' => '',
+  'weight' => '',
+  'vision' => '0',
+  'volk' => '1',
+  'wedlock' => '0',
+  'degree' => '0',
+  'birthday' => '2017-04-12',
+  'identity_card' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000737s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001344s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] UPDATE `al_staff`  SET `hiredate`=-28800  WHERE  `id` = 5 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000239s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value[/home/lion/Web/thinkphp/library/think/db/Connection.php:457]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:29:13+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：0.001783s][吞吐率：560.81req/s] [内存消耗：238.15kb] [文件加载：46]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:29:13+08:00 ] ::1 ::1 GET /index/common/login
+[ log ] localhost/index/common/login [运行时间：0.001650s][吞吐率：606.11req/s] [内存消耗：242.31kb] [文件加载：47]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'common',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Common->login[ /home/lion/Web/application/index/controller/Common.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /home/lion/Web/html/../application/index/view/common/login.html [ array (
+  0 => 'ddjs',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-04-11T23:31:40+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.011384s][吞吐率：87.84req/s] [内存消耗：471.46kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000927s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 5 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000475s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:32:22+08:00 ] ::1 ::1 POST /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.074717s][吞吐率：13.38req/s] [内存消耗：399.40kb] [文件加载：55]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '179',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/staff/staffedit/id/5',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'name' => '刘琳',
+  'alias' => '',
+  'sex' => '0',
+  'telphone' => '15639281165',
+  'hiredate' => '1970-01-01',
+  'photo' => '',
+  'stature' => '168',
+  'weight' => '',
+  'vision' => '1',
+  'volk' => '1',
+  'wedlock' => '0',
+  'degree' => '2',
+  'birthday' => '1990-07-12',
+  'identity_card' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.001274s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] INSERT INTO `al_staff_profile` (`photo` , `stature` , `weight` , `vision` , `volk` , `wedlock` , `degree` , `birthday` , `identity_card` , `sid`) VALUES ('' , 168 , 0 , 1 , 1 , 0 , 2 , 647708400 , '' , 5) [ RunTime:0.067331s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:32:25+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.009730s][吞吐率：102.78req/s] [内存消耗：473.80kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 5 [ RunTime:0.000228s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000344s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:33:17+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.014669s][吞吐率：68.17req/s] [内存消耗：516.18kb] [文件加载：62]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 5 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000280s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:33:41+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.015982s][吞吐率：62.57req/s] [内存消耗：474.89kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001676s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 5 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000983s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.002774s ]
+
+---------------------------------------------------------------
+[ 2017-04-11T23:34:07+08:00 ] ::1 ::1 GET /admin/staff/staffedit/id/5
+[ log ] localhost/admin/staff/staffedit/id/5 [运行时间：0.011948s][吞吐率：83.70req/s] [内存消耗：473.80kb] [文件加载：60]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'staff',
+    2 => 'staffedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=rlcdi8nudbr02mghshutas2cd2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\admin\controller\Staff->staffedit[ /home/lion/Web/application/admin/controller/Staff.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/staff/staffedit.html [ array (
+  0 => 'staff',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000662s ] mysql:dbname=alcms;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff` [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_depart` [ RunTime:0.001106s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_depart` WHERE  `sid` = 5 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_depart` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT * FROM `al_depart` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `al_staff_profile` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `al_staff_profile` WHERE  `sid` = 5 LIMIT 1 [ RunTime:0.000377s ]
+
+---------------------------------------------------------------

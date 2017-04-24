@@ -1,0 +1,92 @@
+[ 2017-03-29T10:54:34+08:00 ] ::1 ::1 GET /admin/index/heHe
+[ log ] localhost/admin/index/heHe [运行时间：0.458521s][吞吐率：2.18req/s] [内存消耗：372.17kb] [文件加载：45]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'heHe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->heHe[ /home/lion/Web/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/index/hehe.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-29T10:55:01+08:00 ] ::1 ::1 GET /admin/index/heHe
+[ log ] localhost/admin/index/heHe [运行时间：0.007342s][吞吐率：136.21req/s] [内存消耗：239.55kb] [文件加载：45]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'heHe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->heHe[ /home/lion/Web/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/index/hehe.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-29T10:56:37+08:00 ] ::1 ::1 GET /admin/index/heHe
+[ log ] localhost/admin/index/heHe [运行时间：0.004390s][吞吐率：227.79req/s] [内存消耗：233.17kb] [文件加载：43]
+[ info ] [ LANG ] /home/lion/Web/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'heHe',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->heHe[ /home/lion/Web/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /home/lion/Web/html/../application/admin/view/index/hehe.html [ array (
+  0 => 'test',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

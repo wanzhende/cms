@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="__STATIC__/hplus/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="__STATIC__/hplus/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+	<script src="__STATIC__/hplus/js/jquery.min.js?v=2.1.4"></script>
+    <script src="__STATIC__/hplus/js/bootstrap.min.js?v=3.3.6"></script>
+    <title>新代金券</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>生成代金券</h5>
+                </div>
+                <div class="ibox-content">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th style="width: 100px;">券号：</th>
+                            <td>{$coupon.code}</td>
+                        </tr>
+                        <tr>
+                            <th>金额：</th>
+                            <td>{$coupon.money}</td>
+                        </tr>
+                        <tr>
+                            <th>有效期：</th>
+                            <td>{$coupon.start_time|date='Y-m-d H:i:s',###}至{$coupon.end_time|date='Y-m-d H:i:s',###}</td>
+                        </tr>
+                        <tr>
+                            <th>使用规则：</th>
+                            <td>{$coupon.rule}</td>
+                        </tr>
+                    </table>
+                    <div>
+                        <a href="{:url('Coupon/createCoupon')}"><button type="button" class="btn btn-w-m btn-warning btn-block">返回</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
