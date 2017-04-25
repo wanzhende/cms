@@ -32,7 +32,6 @@ class BelongsToMany extends Relation
      * @param string $foreignKey 关联模型外键
      * @param string $localKey   当前模型关联键
      */
- 
     public function __construct(Model $parent, $model, $table, $foreignKey, $localKey)
     {
         $this->parent     = $parent;

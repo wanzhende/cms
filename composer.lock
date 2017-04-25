@@ -16,7 +16,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://dl.composer-proxy.org/topthink/framework/bcf64f19f4fadbff6c8503891689ff7e6f2fe9a3.zip",
+                "url": "https://files.phpcomposer.com/files/top-think/framework/bcf64f19f4fadbff6c8503891689ff7e6f2fe9a3.zip",
                 "reference": "bcf64f19f4fadbff6c8503891689ff7e6f2fe9a3",
                 "shasum": ""
             },
@@ -67,7 +67,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/top-think/think-captcha/0c55455df26a1626a60d0dc35d2d89002b741d44.zip",
+                "url": "https://files.phpcomposer.com/files/top-think/think-captcha/0c55455df26a1626a60d0dc35d2d89002b741d44.zip",
                 "reference": "0c55455df26a1626a60d0dc35d2d89002b741d44",
                 "shasum": ""
             },
@@ -103,7 +103,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/top-think/think-installer/4c6e1ebecd1afce3f4ccc47e147d61bbe1bf641d.zip",
+                "url": "https://files.phpcomposer.com/files/top-think/think-installer/4c6e1ebecd1afce3f4ccc47e147d61bbe1bf641d.zip",
                 "reference": "4c6e1ebecd1afce3f4ccc47e147d61bbe1bf641d",
                 "shasum": ""
             },
@@ -144,7 +144,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://dl.composer-proxy.org/topthink/think-migration/68905528cc95e4c6329ff3e8ac3d8380a3f2fa9f.zip",
+                "url": "https://files.phpcomposer.com/files/top-think/think-migration/68905528cc95e4c6329ff3e8ac3d8380a3f2fa9f.zip",
                 "reference": "68905528cc95e4c6329ff3e8ac3d8380a3f2fa9f",
                 "shasum": ""
             },
