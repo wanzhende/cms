@@ -17,7 +17,7 @@ class Staff extends Model
     /**定义表间关联-开始**/
     public function depart()
     {
-        return $this->belongsToMany('Depart', table('staff_depart'), 'did', 'sid');
+        return $this->belongsToMany('Depart', 'staff_depart', 'did', 'sid');
     }
 
     /*public function staffDepart()

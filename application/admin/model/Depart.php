@@ -12,7 +12,7 @@ class Depart extends Model
 
     public function staff()
     {
-        return $this->belongsToMany('Staff', table('staff_depart'), 'sid', 'did');
+        return $this->belongsToMany('Staff', 'staff_depart', 'sid', 'did');
     }
 
     public function getDepart()
