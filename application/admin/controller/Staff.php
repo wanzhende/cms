@@ -45,6 +45,8 @@ class Staff extends Controller
         if($request->isGet()) {
             $id = $request->param('id', 0, 'intval');
             $staff = StaffModel::get($id);
+            $staff->appendRelationAttr('StaffProfile', ['photo', 'stature', 'weight', 'vision', 'volk', 'wedlock', 'degree', 'birthday', 'identity_card']);
+            //dump($staff);
             $this->assign('staff', $staff);
             return $this->fetch();
         } else {
