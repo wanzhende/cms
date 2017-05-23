@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "topthink/framework",
-            "version": "v5.0.8",
+            "version": "v5.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "02f8e8a9099c534d1b2c38385fcf1fa5404694d4"
+                "reference": "24ae4b9042bf9acfd041eb34602b14eb8669bc3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/top-think/framework/02f8e8a9099c534d1b2c38385fcf1fa5404694d4.zip",
-                "reference": "02f8e8a9099c534d1b2c38385fcf1fa5404694d4",
+                "url": "https://files.phpcomposer.com/files/top-think/framework/24ae4b9042bf9acfd041eb34602b14eb8669bc3f.zip",
+                "reference": "24ae4b9042bf9acfd041eb34602b14eb8669bc3f",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2017-04-28T09:33:15+00:00"
+            "time": "2017-05-20T10:43:04+00:00"
         },
         {
             "name": "topthink/think-captcha",
@@ -136,16 +136,16 @@
         },
         {
             "name": "topthink/think-migration",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-migration.git",
-                "reference": "68905528cc95e4c6329ff3e8ac3d8380a3f2fa9f"
+                "reference": "8e489f8d38a39876690c0e00fcf9a54ae92c4d3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/top-think/think-migration/68905528cc95e4c6329ff3e8ac3d8380a3f2fa9f.zip",
-                "reference": "68905528cc95e4c6329ff3e8ac3d8380a3f2fa9f",
+                "url": "https://files.phpcomposer.com/files/top-think/think-migration/8e489f8d38a39876690c0e00fcf9a54ae92c4d3d.zip",
+                "reference": "8e489f8d38a39876690c0e00fcf9a54ae92c4d3d",
                 "shasum": ""
             },
             "require-dev": {
@@ -171,7 +171,7 @@
                     "email": "448901948@qq.com"
                 }
             ],
-            "time": "2017-02-08T07:42:38+00:00"
+            "time": "2017-03-31T06:33:23+00:00"
         }
     ],
     "packages-dev": [],
