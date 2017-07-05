@@ -28,7 +28,7 @@ USE `alcms`;
 -- 表的结构 `al_access`
 --
 
-CREATE TABLE `al_access` (
+CREATE TABLE IF NOT EXISTS `al_access` (
   `role_id` smallint(6) UNSIGNED NOT NULL,
   `node_id` smallint(6) UNSIGNED NOT NULL,
   `level` tinyint(1) NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE `al_access` (
 -- 表的结构 `al_depart`
 --
 
-CREATE TABLE `al_depart` (
+CREATE TABLE IF NOT EXISTS `al_depart` (
   `id` int(11) NOT NULL,
   `name` varchar(32) NOT NULL DEFAULT '',
   `pid` int(11) NOT NULL DEFAULT '0',
@@ -82,7 +82,7 @@ INSERT INTO `al_depart` (`id`, `name`, `pid`, `level`, `sort`, `status`) VALUES
 -- 表的结构 `al_node`
 --
 
-CREATE TABLE `al_node` (
+CREATE TABLE IF NOT EXISTS `al_node` (
   `id` smallint(6) UNSIGNED NOT NULL,
   `name` varchar(20) NOT NULL,
   `title` varchar(50) DEFAULT NULL,
@@ -97,7 +97,7 @@ CREATE TABLE `al_node` (
 -- 转存表中的数据 `al_node`
 --
 
-INSERT INTO `al_node` (`id`, `name`, `title`, `status`, `remark`, `sort`, `pid`, `level`) VALUES
+INSERT INTO IF NOT EXISTS `al_node` (`id`, `name`, `title`, `status`, `remark`, `sort`, `pid`, `level`) VALUES
 (1, 'admin', '后台应用', 1, NULL, 0, 0, 1),
 (2, 'index', '首页', 1, NULL, 0, 1, 2),
 (3, 'index', '首页', 1, NULL, 0, 2, 3),
@@ -121,7 +121,7 @@ INSERT INTO `al_node` (`id`, `name`, `title`, `status`, `remark`, `sort`, `pid`,
 -- 表的结构 `al_role`
 --
 
-CREATE TABLE `al_role` (
+CREATE TABLE IF NOT EXISTS `al_role` (
   `id` smallint(6) UNSIGNED NOT NULL,
   `name` varchar(20) NOT NULL,
   `pid` smallint(6) DEFAULT NULL,
@@ -133,7 +133,7 @@ CREATE TABLE `al_role` (
 -- 转存表中的数据 `al_role`
 --
 
-INSERT INTO `al_role` (`id`, `name`, `pid`, `status`, `remark`) VALUES
+INSERT INTO IF NOT EXISTS `al_role` (`id`, `name`, `pid`, `status`, `remark`) VALUES
 (1, 'Manager', NULL, 1, '管理员'),
 (2, 'Editor', NULL, 1, '编辑'),
 (3, 'HR', NULL, 1, '人事');
@@ -144,7 +144,7 @@ INSERT INTO `al_role` (`id`, `name`, `pid`, `status`, `remark`) VALUES
 -- 表的结构 `al_role_user`
 --
 
-CREATE TABLE `al_role_user` (
+CREATE TABLE IF NOT EXISTS `al_role_user` (
   `role_id` mediumint(9) UNSIGNED DEFAULT NULL,
   `user_id` char(32) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
@@ -155,7 +155,7 @@ CREATE TABLE `al_role_user` (
 -- 表的结构 `al_staff`
 --
 
-CREATE TABLE `al_staff` (
+CREATE TABLE IF NOT EXISTS `al_staff` (
   `id` int(11) NOT NULL,
   `name` varchar(12) NOT NULL DEFAULT '',
   `alias` varchar(32) NOT NULL DEFAULT '' COMMENT '别名',
@@ -188,7 +188,7 @@ INSERT INTO `al_staff` (`id`, `name`, `alias`, `sex`, `telphone`, `level`, `hire
 -- 表的结构 `al_staff_depart`
 --
 
-CREATE TABLE `al_staff_depart` (
+CREATE TABLE IF NOT EXISTS `al_staff_depart` (
   `id` int(11) NOT NULL,
   `sid` int(11) NOT NULL DEFAULT '0',
   `did` int(11) NOT NULL DEFAULT '0',
@@ -202,7 +202,7 @@ CREATE TABLE `al_staff_depart` (
 -- 转存表中的数据 `al_staff_depart`
 --
 
-INSERT INTO `al_staff_depart` (`id`, `sid`, `did`, `position`, `status`, `add_time`, `remove_time`) VALUES
+INSERT INTO IF NOT EXISTS `al_staff_depart` (`id`, `sid`, `did`, `position`, `status`, `add_time`, `remove_time`) VALUES
 (43, 1, 3, '', 0, 0, 0),
 (44, 1, 5, '', 0, 0, 0),
 (5, 2, 2, '', 0, 0, 0),
@@ -225,7 +225,7 @@ INSERT INTO `al_staff_depart` (`id`, `sid`, `did`, `position`, `status`, `add_ti
 -- 表的结构 `al_staff_profile`
 --
 
-CREATE TABLE `al_staff_profile` (
+CREATE TABLE IF NOT EXISTS `al_staff_profile` (
   `id` int(11) NOT NULL,
   `sid` int(11) NOT NULL DEFAULT '0',
   `photo` varchar(255) NOT NULL,
@@ -247,6 +247,68 @@ INSERT INTO `al_staff_profile` (`id`, `sid`, `photo`, `stature`, `weight`, `visi
 (1, 5, '', 168, 90, 1, 1, 0, 2, 647708400, ''),
 (2, 3, '', 158, 0, 0, 1, 0, 0, 0, ''),
 (3, 1, '', 0, 0, 0, 1, 0, 0, 0, '');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `al_randcoupon`
+--
+
+CREATE TABLE IF NOT EXISTS `al_randcoupon` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uid` int(11) NOT NULL DEFAULT '0',
+  `code` varchar(16) NOT NULL,
+  `money` int(11) NOT NULL DEFAULT '0',
+  `status` tinyint(1) NOT NULL DEFAULT '0',
+  `start_time` int(11) NOT NULL DEFAULT '0',
+  `end_time` int(11) NOT NULL DEFAULT '0',
+  `use_time` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='随机代金券' AUTO_INCREMENT=2409 ;
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `al_smslog`
+--
+
+CREATE TABLE IF NOT EXISTS `al_smslog` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uid` int(11) NOT NULL DEFAULT '0',
+  `cardno` varchar(13) NOT NULL DEFAULT '',
+  `send_time` int(11) NOT NULL,
+  `content` varchar(255) NOT NULL,
+  `char` int(11) NOT NULL DEFAULT '0',
+  `telphone` varchar(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='短信记录';
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `al_user`
+--
+
+CREATE TABLE IF NOT EXISTS `al_user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `username` varchar(32) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `truename` varchar(32) NOT NULL DEFAULT '',
+  `phone` varchar(11) NOT NULL,
+  `last_ip` varchar(16) NOT NULL DEFAULT '',
+  `last_time` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
+
+--
+-- 转存表中的数据 `al_user`
+--
+
+INSERT INTO `al_user` (`id`, `username`, `password`, `truename`, `phone`, `last_ip`, `last_time`) VALUES
+(1, 'youyu', 'e82363b307a044464f5d316fdcadb455', '有鱼', '03703366888', '42.231.99.113', 1498975970),
+(2, 'sqhqd', 'e10adc3949ba59abbe56e057f20f883e', '商丘花千代(大商店)', '03703237555', '42.231.98.112', 1499239299),
+(3, 'dldw', '715495f764a690865177ceb16061b896', '肚来肚往', '03703673888', '42.235.12.18', 1498800053),
+(4, 'admin', 'e10adc3949ba59abbe56e057f20f883e', '超级管理员', '3366889', '42.231.98.112', 1499228520);
 
 --
 -- Indexes for dumped tables
