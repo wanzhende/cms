@@ -94,6 +94,33 @@ class Member extends Indexbase
 		return $this->fetch();
 	}
 
+	public function replace()
+	{
+		return $this->fetch();
+	}
+
+	public function getcardinfo($cardno = '')
+	{
+		if(empty($cardno)) {
+			$this->error('卡号不能为空！');
+		} else {
+			$data = \think\Db::name('vip_replace')->where('cardno', $cardno)->find();
+			//dump($data);
+			if(is_array($data)) {
+			
+				//对时间戳进行转换	
+				if($data['status'] ==0 && $data['r_time'] == NULL) {
+					
+				} else {
+					$data['r_time'] = date('Y-m-d H:i:s', $data['r_time']);
+				}						
+				$this->success('查询成功!',null,$data);
+			} else {
+				$this->error('对不起，卡号不存在！');
+			}
+		}
+	}
+
 	private function build_content($tel, $pwd, $kf, $cardno)
 	{
 		$content_str="尊敬的会员，您的密码为：".$pwd."，查询时间：".date('n月d日G时i分',time())."，如非您本人申请请立即致电".$kf."。";

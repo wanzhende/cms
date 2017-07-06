@@ -101,7 +101,7 @@ class Coupon extends \app\common\controller\Indexbase
 			} else {
 				$this->error('对不起，券号不存在！');
 			}
-		}		
+		}
 	}
 	
 	public function validCoupon($code='')
