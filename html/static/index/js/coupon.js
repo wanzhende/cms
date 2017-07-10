@@ -14,7 +14,7 @@ $(document).ready(function() {
 		init();
 		var couponCode = $("#coupon_code").val();
 		if(couponCode != '') {
-			$.get('http://vip.cnailin.com/index/Coupon/getcouponInfo/code/' + couponCode, function(data) {
+			$.get('/index/Coupon/getcouponInfo/code/' + couponCode, function(data) {
 
 				if(data.code == 1) {					
 					var statusStr='';
@@ -70,7 +70,7 @@ $(document).ready(function() {
 		var couponCode = $("#coupon_code").val();
 		$("#queryBtn").click();
 		var money = $('th:contains(金额)').next().html();
-		$.get("http://vip.cnailin.com/index/Coupon/validCoupon/code/" + couponCode, function(data) {
+		$.get("/index/Coupon/validCoupon/code/" + couponCode, function(data) {
 			if(data.code) {
 				$("#queryBtn").click();
 			}

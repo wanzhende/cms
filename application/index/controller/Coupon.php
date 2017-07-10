@@ -79,8 +79,7 @@ class Coupon extends \app\common\controller\Indexbase
 		} else {
 			$coupon = new \app\common\ORG\Couponcode();
 			$data = $coupon->getCouponInfo($code);
-			if(is_array($data)) {
-				
+			if(is_array($data)) {				
 				//判断是否在有效期范围内
 				$current_time = time();
 				if($current_time > $data['start_time'] && $current_time < $data['end_time']) {

@@ -121,6 +121,25 @@ class Member extends Indexbase
 		}
 	}
 
+	public function replaceCard($cardno = '', $new_cardno = '')
+	{
+		if(empty($cardno) || empty($new_cardno)) {
+			$this->error('卡号不能为空！');
+		} else {
+			$result = \think\Db::name('vip_replace')->where('cardno', $cardno)->where('status', 0)->update(['new_cardno'=>$new_cardno, 'status'=>1, 'r_time'=>time()]);
+			if($result) {
+				$this->success('查询成功!');
+			} else {
+				$this->error('兑换失败!');
+			}
+		}
+	}
+
+	public function newcard()
+	{
+		return $this->fetch();
+	}
+
 	private function build_content($tel, $pwd, $kf, $cardno)
 	{
 		$content_str="尊敬的会员，您的密码为：".$pwd."，查询时间：".date('n月d日G时i分',time())."，如非您本人申请请立即致电".$kf."。";
