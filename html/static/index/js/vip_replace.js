@@ -3,7 +3,6 @@ $(document).ready(function() {
 	function init() {
 		//移除指定的css样式、隐藏核销按钮、清空表格内容
 		$("td").css({'text-decoration':'', 'color':''});
-		$('#dhBtn').hide();
 		$('th:contains(券号)').next().html("");
 		$('th:contains(余额)').next().html("");
 		$('th:contains(状态)').next().html("");
@@ -53,15 +52,11 @@ $(document).ready(function() {
 							},
 							closeBtn: 0
 						});
-						/*
-						$('#dhBtn').css('display','block');
-						$('#dhBtn').show();
-						*/
+
 					} else {
 						//已兑换
 						$('th:contains(状态)').next().css('color',"#f00");
 						statusStr = '已于' + data.data.r_time + '兑换(新卡号：' + data.data.new_cardno + ')';
-						$('#dhBtn').hide();
 					}
 					$('th:contains(状态)').next().html(statusStr);
 				} else {
@@ -80,26 +75,4 @@ $(document).ready(function() {
 			});
 		}
 	});
-
-	$('#dhBtn').click(function() {
-		
-	});
-
-	/*
-	$("#dhBtn").click(function() {
-		var cardno = $("#cardno").val();
-		$("#queryBtn").click();
-		var money = $('th:contains(余额)').next().html();
-		$.get("/index/Member/replaceCard/cardno/" + cardno, function(data) {
-			if(data.code) {
-				$("#queryBtn").click();
-			}
-			layer.open({
-				title: '提示',
-				icon: 1,
-				content: data.msg
-			});
-		});
-	});
-	*/
 });
