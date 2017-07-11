@@ -144,7 +144,7 @@ class Coupon extends \app\common\controller\Indexbase
 			return $this->fetch();
 		} else {
 			$this->error('非法'.$request_method->method().'请求!');
-		}			
+		}		
 	}
 
 	public  function test()

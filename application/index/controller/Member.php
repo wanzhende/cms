@@ -121,6 +121,34 @@ class Member extends Indexbase
 		}
 	}
 
+	public function replacelist()
+	{
+		//时间参数初始化
+		$start_time = empty($start_time) ? strtotime(date('Y-m-d',time())) : strtotime($start_time);
+		$end_time = empty($end_time) ? strtotime(date('Y-m-d',time())) + 86399 : strtotime($end_time) + 86399;
+		$end_time < $start_time && $end_time = $start_time + 86399;
+		
+		if(!empty($start_time) && !empty($end_time)) {
+			$list = Db::name('vip_replace')->where(array('status'=>1, 'r_time'=>array('between', [$start_time, $end_time])))->order('r_time desc')->select();
+			$sum = Db::name('vip_replace')->where(array('status'=>1, 'r_time'=>array('between', [$start_time, $end_time])))->sum('balance');
+		}
+		
+		$request_method = Request::instance();
+		
+		if($request_method->isAjax()) {
+			foreach($list as $key=>$value) {
+				$list[$key]['r_time'] = date('Y-m-d H:i:s',$list[$key]['r_time']);
+			}
+			return json($list);
+		} elseif ($request_method->isGet()) {
+			$this->assign('sum',$sum);
+			$this->assign('list',$list);
+			return $this->fetch();
+		} else {
+			$this->error('非法'.$request_method->method().'请求!');
+		}
+	}
+
 	public function replaceCard($cardno = '', $new_cardno = '')
 	{
 		if(empty($cardno) || empty($new_cardno)) {

@@ -75,4 +75,13 @@ $(document).ready(function() {
 			});
 		}
 	});
+
+	$('#dhRecord').click(function() {
+		var index = layer.open({
+			type:2,
+			maxmin: true,
+			content:'/index/Member/replaceList',
+		});
+		layer.full(index);
+	});
 });
