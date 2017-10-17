@@ -121,7 +121,7 @@ class Member extends Indexbase
 		}
 	}
 
-	public function replacelist()
+	public function replacelist($start_time = 0, $end_time = 0)
 	{
 		//时间参数初始化
 		$start_time = empty($start_time) ? strtotime(date('Y-m-d',time())) : strtotime($start_time);
@@ -181,7 +181,7 @@ class Member extends Indexbase
 					'telphone'=>$tel
 				);
 		Db::name('smslog')->insert($data);
-		$dx = new \app\common\ORG\Jxtmsg('ailin','ma19340091',$tel,$content_str);		
+		$dx = new \app\common\ORG\Jxtmsg('ailin','al19340091',$tel,$content_str);		
 		$dx->send();
 	}
 }
