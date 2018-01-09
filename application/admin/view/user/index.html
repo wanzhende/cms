@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户管理</title>
+    <link rel="stylesheet" href="__STATIC__/public/layui/css/layui.css">
+    <script src="__STATIC__/public/layui/layui.js"></script>
+    <style>
+        .layui-form-checkbox[lay-skin="primary"] {
+            margin-top: 0px;
+        }
+        .layui-icon-status {
+             font-size: 20px;
+             position: relative;
+             top: 2px;
+        }
+        .role{
+            margin: 10px auto;
+        }
+        .role button {
+            width:180px;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="display: inline-block; font-size:28px;vertical-align: middle;">用户管理</h3>
+    <button id="userAdd" class="layui-btn layui-btn-small">添加用户</button>
+    <div class="layui-form">
+        <table class="layui-table" lay-skin="line">
+            <colgroup>
+            <col width="60">
+            <col width="120">
+            <col width="180">
+            <col width="80">
+            <col width="60">
+            <col width="200" align="center">
+            <col>
+            </colgroup>
+            <thead>
+            <tr>
+                <th>行号</th>
+                <th>账号</th>            
+                <th>姓名</th>
+                <th>电话</th>
+                <th>状态</th>
+                <th>所属角色</th>
+                <th>操作</th>
+            </tr> 
+            </thead>
+            <tbody>
+                {volist name="user" id="vo" key='k'}
+                <tr>
+                    <td>{$k}</td>
+                    <td>{$vo.username}</td>
+                    <td>{$vo.truename}</td>
+                    <td>{$vo.phone}</td>
+                    <td>
+                        {eq name="vo.status" value="1"}<i class="layui-icon layui-icon-status" style="color: #5FB878;">&#xe616;</i>{else/}<i class="layui-icon layui-icon-status" style="color: #8e8e8e;">&#x1007;</i>{/eq}
+                    </td>
+                    <td>
+                        {volist name="vo.roles" id="ro"}
+                        <div class="role">
+                            <button class="layui-btn layui-btn-small layui-btn-radius layui-btn-danger">
+                                {$ro.name}({$ro.remark})
+                            </button>
+                        </div>
+                        {/volist}
+                    </td>
+                    <td>
+                        <button class="layui-btn layui-btn-mini editUser" data-id="{$vo.id}">编辑</button>
+                        <button class="layui-btn layui-btn-danger layui-btn-mini delUser" data-id="{$vo.id}">删除</button>
+                    </td>
+                </tr>
+                {/volist}
+            </tbody>
+        </table>
+    </div>
+    
+
+</body>
+<script>
+    layui.use(['element', 'form', 'layer'], function() {
+        var element = layui.element(), form = layui.form(), layer = layui.layer, $ = layui.jquery;
+        $('#userAdd').click(function() {
+            layer.open({
+                type:2
+                ,title: '添加用户'
+                ,content: '/admin/user/add/'
+                ,area:['600px', '418px']
+            });
+        });
+        $('.editUser').click(function() {
+            var id = $(this).data('id');
+            layer.open({
+                type:2
+                ,title: '编辑用户'
+                ,content: '/admin/user/edit/id/' + id
+                ,area: ['600px', '418px']
+            });
+        });
+ 
+        
+    });
+</script>
+</html>

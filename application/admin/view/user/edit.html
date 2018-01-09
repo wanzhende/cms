@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>编辑用户</title>
+    <link rel="stylesheet" href="__STATIC__/public/layui/css/layui.css">
+    <script src="__STATIC__/public/layui/layui.js"></script>
+    <style>
+    .form-body {
+        height: 280px;
+        overflow-y: scroll;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 16px;
+    }
+    </style>
+</head>
+<body>
+    <div class="layui-box" style="position: relative; right: 20px; top: 20px;">
+        <form class="layui-form" action="" method="post">
+            <input type="hidden" name="id" value="{$Request.param.id}">
+            <div class="form-body">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">账号</label>
+                    <div class="layui-input-block">
+                    <input type="text" name="username" class="layui-input" value="{$user.username}" placeholder="请输入账号" required lay-verify="required" >
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">姓名</label>
+                    <div class="layui-input-block">
+                    <input type="text" name="truename" class="layui-input" value="{$user.truename}" placeholder="请输入姓名" required lay-verify="required" >
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">电话</label>
+                    <div class="layui-input-block">
+                    <input type="text" name="phone" class="layui-input" value="{$user.phone}" placeholder="请输入电话" required lay-verify="required" >
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">角色</label>
+                    <div class="layui-inline">
+                        <select name="roles[]" lay-verify="required">
+                        {empty name="roles"}
+                            <option value="0">请先完善角色</option>
+                        {else /}
+                        {volist name='roles' id='ro'}
+                            <option value="{$ro.id}">{$ro.name}({$ro.remark})</option>    
+                        {/volist}
+                        {/empty}
+                        </select>
+                    </div>
+                    <div class="layui-inline">
+                        <button id="addRole" class="layui-btn layui-btn-primary" type="button"><i class="layui-icon">&#xe654;</i></button>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">状态</label>
+                    <div class="layui-input-block">
+                    <input type="radio" name="status" value="1" title="开启" {eq name="user.status" value="1"}checked{/eq}>
+                    <input type="radio" name="status" value="0" title="关闭" {eq name="user.status" value="0"}checked{/eq}>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="formDemo">保存</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    layui.use(['element', 'form', 'layer'], function() {
+        var element = layui.element(), form = layui.form(), layer = layui.layer, $ = layui.jquery;
+        var roleNum = 1, curNum = 1;
+        $('#addRole').click(function() {
+            var that = $(this);       
+            //从服务器获取角色数
+            $.get('/admin/User/getRolesNum', function(data){
+                roleNum = data;
+                if(curNum < roleNum) {
+                    var obj = $(that).parents('div.layui-form-item').clone();
+                    obj.find('label.layui-form-label').html('');
+                    var temp = obj.find('#addRole').parent();
+                    temp.find('#addRole').remove();            
+                    temp.append('<button id="removeRole" class="layui-btn layui-btn-primary" type="button"><i class="layui-icon">&#x1006;</i></button>');
+                    $(that).parents('div.layui-form-item').after(obj);
+                    curNum++;
+                    form.render();
+                } else {
+                    layer.msg('分配角色不能超过系统角色数！');
+                }
+            });            
+        });
+        $(document).on('click', '#removeRole', function(){
+            $(this).parents('div.layui-form-item').remove();
+            curNum--;
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="keywords" content="爱邻CMS">
+    <meta name="description" content="爱邻CMS">
+    <title>爱邻CMS</title>
+
+    <!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="__STATIC__/hplus/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="__STATIC__/hplus/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="__STATIC__/hplus/css/animate.min.css" rel="stylesheet">
+    <link href="__STATIC__/hplus/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <script src="__STATIC__/hplus/js/jquery.min.js?v=2.1.4"></script>
+    <script src="__STATIC__/hplus/js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="__STATIC__/hplus/js/plugins/layer/layer.min.js"></script>
+</head>
+<script>
+    $(document).ready(function() {
+        $('form').submit(function () {
+            if($('input[name=cardno]').val() == '') {
+                layer.open({
+                    title: '错误',
+                    icon: 2,
+                    content: '会员卡号不能为空!',
+                    time: 2000
+                });
+                return false;
+            } else {
+                return true;
+            }
+        });
+    });
+</script>
+<body>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title"><h5>电子券列表</h5></div>
+                <div class="ibox-content">
+                    <form action="" method="post">
+                        <div class="input-group">	
+                        <input class="form-control" type="text" name="cardno" value="{$cardno}" placeholder="输入会员卡号" />
+                        <span class="input-group-btn"><input class="btn btn-primary" type="submit" value="查询" /></span>
+				        </div>
+                    </form>
+                    
+                    <div class="tabs-container">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">未使用({:count($brand_new)})</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">已使用({:count($used)})</a></li>
+                            <li class=""><a data-toggle="tab" href="#tab-3" aria-expanded="false">已过期({:count($expired)})</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab-1" class="tab-pane active">
+                                <div class="panel-body">
+                                    <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>行号</th>
+                                                <th>名称</th>
+                                                <th>金额</th>
+                                                <th>最低消费</th>
+                                                <th>开始日期</th>
+                                                <th>结束日期</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {volist name="brand_new" id="vo"}
+                                            <tr>
+                                                <td>{$i}</td>
+                                                <td>{$vo.vch_ticketname}</td>
+                                                <td>{$vo.num_ticket}</td>
+                                                <td>{$vo.num_amt}</td>
+                                                <td>{$vo.dt_begin}</td>
+                                                <td>{$vo.dt_end}</td>
+                                            </tr>
+                                            {/volist}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="tab-pane">
+                                <div class="panel-body">
+									<table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>行号</th>
+                                                <th>名称</th>
+                                                <th>金额</th>
+                                                <th>最低消费</th>
+                                                <th>开始日期</th>
+                                                <th>结束日期</th>
+												<th>使用门店</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {volist name="used" id="vo"}
+                                            <tr>
+                                                <td>{$i}</td>
+                                                <td>{$vo.vch_ticketname}</td>
+                                                <td>{$vo.num_ticket}</td>
+                                                <td>{$vo.num_amt}</td>
+                                                <td>{$vo.dt_begin}</td>
+                                                <td>{$vo.dt_end}</td>
+												<td>{$vo.vch_company}</td>
+                                            </tr>
+                                            {/volist}
+                                        </tbody>
+									</table>
+                                </div>
+                            </div>
+                            <div id="tab-3" class="tab-pane">
+                                <div class="panel-body">
+									<table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>行号</th>
+                                                <th>名称</th>
+                                                <th>金额</th>
+                                                <th>最低消费</th>
+                                                <th>开始日期</th>
+                                                <th>结束日期</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {volist name="expired" id="vo"}
+                                            <tr>
+                                                <td>{$i}</td>
+                                                <td>{$vo.vch_ticketname}</td>
+                                                <td>{$vo.num_ticket}</td>
+                                                <td>{$vo.num_amt}</td>
+                                                <td>{$vo.dt_begin}</td>
+                                                <td>{$vo.dt_end}</td>
+                                            </tr>
+                                            {/volist}
+                                        </tbody>
+									</table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

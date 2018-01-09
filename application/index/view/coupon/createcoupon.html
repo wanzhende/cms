@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="__STATIC__/hplus/css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="__STATIC__/hplus/css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <link href="__STATIC__/hplus/css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+	<script src="__STATIC__/hplus/js/jquery.min.js?v=2.1.4"></script>
+    <script src="__STATIC__/hplus/js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="__STATIC__/hplus/js/plugins/datapicker/bootstrap-datepicker.js"></script>
+    <script src="__STATIC__/index/js/dayAdd.js"></script>    
+</head>
+<body>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="ibox float-e-margins">
+                    <div class="ibox-title"><h5>生成代金券</h5></div>
+                    <div class="ibox-content">
+                        <form action="" method="post" class="form-horizontal">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">券面额</label>                        
+                                <div class="col-sm-4 input-group">
+                                    <input type="number" class="input-sm form-control" name="min_money" value="50" required placeholder="最小金额" >
+                                    <span class="input-group-addon">至</span>
+                                    <input type="number" class="input-sm form-control" name="max_money" value="100" required placeholder="最大金额" >
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="">延迟生效</label>
+                                <div class="col-sm-4 input-group">
+                                    <input type="number" class="form-control" name="delay" value="120" required placeholder="">
+                                    <span class="input-group-addon">分钟后生效</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">券有效期</label>
+                                <div class="col-sm-4 input-group">
+                                    <select class="form-control" name="datetype">
+                                        <option value="1">相对时间</option>
+                                        <option value="2">指定时间</option>
+                                    </select>
+                                </div>                        
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2  control-label"></label>
+                                <div class="col-sm-4 input-group">
+                                    <span class="input-group-addon">领取后</span>
+                                    <input type="number" class="form-control" value="7" min="0" step="1" name="relativeDays" required>
+                                    <span class="input-group-addon">日内有效</span>
+                                </div>                      
+                            </div>
+                            <div class="form-group" style="">
+                                <label class="col-sm-2  control-label"></label>
+                                <div class="col-sm-4 input-daterange input-group" id="datepicker">
+                                        <input type="text" class="form-control" name="start_time" value="{:date('Y-m-d',time())}" readonly required pattern="\d{4}-\d{2}-\d{2}">
+                                        <span class="input-group-addon">到</span>
+                                        <input type="text" class="form-control" name="end_time" value="{:date('Y-m-d',strtotime(date('Y-m-d',time()))+604800)}" readonly required pattern="\d{4}-\d{2}-\d{2}">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                <button class="btn btn-primary btn-w-m" type="submit">立即生成</button>
+                                </div>
+                            </div>                                         
+                        </form>
+                    </div>
+                </div>                      
+        </div>
+    </div>
+    <script>
+    	$(document).ready(function() {
+            //初始化日期范围选择控件
+            $(".input-daterange").datepicker({startDate:'{:date('Y-m-d',time())}',autoclose:true});
+            //选择框事件
+            $("select.form-control").change(function() {
+                var datetype = $(this).val();
+                synControl();
+            });
+            //相对天数同步开始和结束日期
+            $("input[name='relativeDays']").change(function() {
+                var day_num = parseInt($(this).val());
+                var start_time = $("input[name='start_time']").val();
+                if(start_time =='') {
+                    start_time  = dayAdd();
+                    $("input[name='start_time']").val(start_time);
+                }            
+                var end_time = dayAdd(start_time, day_num);
+                $("input[name='end_time']").val( end_time);
+            });
+            synControl();
+            //根据日期类型隐藏相应控件并激活对应事件            
+            function synControl() {
+                var date_type = $("select.form-control").val();
+                if(date_type == 1) {
+                    $("select.form-control").parent().parent().next().show();
+                    $("select.form-control").parent().parent().next().next().hide();
+                    $("input[name='relativeDays']").change(); //激活对应事件
+                } else if(date_type == 2) {
+                    $("select.form-control").parent().parent().next().hide();
+                    $("select.form-control").parent().parent().next().next().show();
+                }
+            }         
+	    });        
+    </script>
+</body>
+</html>

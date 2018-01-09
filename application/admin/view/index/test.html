@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="__STATIC__/public/layui/css/layui.css">
+    <script src="__STATIC__/public/layui/layui.js"></script>
+</head>
+<body>
+    {volist name="data" id="vo"}
+    <div class="layui-inline">
+        <input class="layui-input" placeholder="名字" value="{$vo.name}">
+    </div>
+    
+    <div class="layui-inline">
+        <input class="layui-input" placeholder="开启节日" onclick="laydate({elem: this, festival: true})" value="{$vo.start}">
+    </div>
+
+    <div class="layui-inline">
+        <input class="layui-input" placeholder="结束节日" value="{$vo.end}">
+    </div>
+    <br>
+    {/volist}
+    <script>
+        layui.use(['element', 'laydate'], function() {
+            var laydate = layui.laydate;
+        });
+    </script>
+</body>
+</html>

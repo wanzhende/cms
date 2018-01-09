@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="__STATIC__/public/layui/css/layui.css">
+    <link rel="stylesheet" href="__STATIC__/{$Request.module}/css/nodegrant.css?v={:time()}">
+    <script src="__STATIC__/public/layui/layui.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <form class="layui-form" action="" method="post">
+            <div class="nodeList layui-collapse">
+                {volist name="node" id="app"}
+                    <div class="app layui-colla-item"> 
+                        <div class="layui-colla-title">
+                            <span>{$app.title}</span>                            
+                        </div>
+                        <div class="layui-colla-content {eq name="i" value="1"}layui-show{/eq}">
+                            <div class="appNode">
+                                    <input type="checkbox" name="access[]" title="全选" value="{$app.id}_1" lay-skin="primary" lay-filter="app" {eq name="app.access" value="1"}checked{/eq} > 
+                            </div>
+                        {volist name="app.child" id="action"}
+                            <dl>
+                                <dt>
+                                    <input type="checkbox" name="access[]" title="{$action.title}" value="{$action.id}_2" lay-skin="primary" lay-filter="action" {eq name="action.access" value="1"}checked{/eq} > 
+                                </dt>
+                                {volist name="action.child" id="method"}
+                                    <dd>
+                                        <input type="checkbox" name="access[]" title="{$method.title}" value="{$method.id}_3" lay-skin="primary" {eq name="method.access" value="1"}checked{/eq} >
+                                    </dd>                            
+                                {/volist}
+                            </dl>
+                        {/volist}
+                        </div>
+                    </div>
+                {/volist}
+            </div>
+            <input type="hidden" name="role_id" value="{$Request.param.id}">
+            <div class="buttonGroup">
+                <button class="layui-btn" type="submit">保存</button>
+            </div>
+        </form>
+    </div>
+    
+
+</body>
+<script>
+    layui.use(['element', 'form', 'layer'], function() {
+        var element = layui.element(), form = layui.form(), layer = layui.layer, $ = layui.jquery;
+        form.on('checkbox(app)', function(data){
+            checkedAll(data.elem);
+        });
+        form.on('checkbox(action)', function(data){
+            checkedAll(data.elem);
+        });
+        function checkedAll(elem) {
+            var inputs = $(elem).parent().parent().find('input');
+            $(elem).prop('checked') ? inputs.prop('checked', 'checked') : inputs.removeProp('checked');
+            form.render();
+        }
+        
+    });
+</script>
+</html>

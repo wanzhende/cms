@@ -1,0 +1,60 @@
+#wrap {
+    width: 97%;
+    height: auto;
+    margin: 0px auto;
+    padding:10px 10px;
+}
+
+#wrap .nodeList {
+    height: 480px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+#wrap .app {
+    padding: 0px;
+    border: 1px solid #f6f6f6;
+    border-radius: 4px;
+}
+
+#wrap .app .appNode {
+    height: 40px;
+    background: #7ca0c5;
+}
+#wrap .app .appNode .layui-form-checkbox {
+    padding-left:10px;
+}
+#wrap .app .appNode .layui-form-checkbox span {
+    color: #fff;
+}
+
+#wrap .app>div>strong {
+    font-size: 20px;
+    color: #0b99d8;
+}
+#wrap .app dl {
+    margin: 0px 0px;
+    border: 1px solid #dcdcdc;
+    height: auto;
+    overflow: hidden;
+}
+#wrap .app dl dt {
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    background: #fbfbfb;
+    padding-left:30px;
+}
+#wrap .app dl dd{
+    float: left;
+    padding:10px 0px;
+}
+#wrap .app dl dd:first-of-type {
+    padding-left: 50px;    
+}
+#wrap .app dl dt strong {
+    color: #00c9ff;
+}
+.buttonGroup {
+    text-align:center;
+}
